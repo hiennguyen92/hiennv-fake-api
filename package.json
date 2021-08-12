@@ -1,0 +1,17 @@
+{
+  "name": "hiennv-fake-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hello world!\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.0",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.21"
+  }
+}
