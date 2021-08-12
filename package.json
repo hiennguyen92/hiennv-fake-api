@@ -1,17 +1,20 @@
 {
   "name": "hiennv-fake-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "hiennv-fake-api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"hello world!\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "patch-package"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "faker": "^5.5.0",
     "json-server": "^0.16.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "patch-package": "^6.4.7",
+    "json-server-auth": "^2.1.0"
   }
 }
