@@ -2,13 +2,25 @@
   "users": [
     {
       "email": "hien@hiennv.com",
-      "password": "$2a$10$3YKVBEXARwY2benOygN5yOXfQmfB/kkrsbHo3PL.jNzqmKhPytTp2",
+      "password": "$2a$10$LSlkMWDgCntQrkOFgKROOu/5gc7Ifp51f3J7kuBwShgeQB58bXckW",
+      "name": "Hien Nguyen",
       "id": 1
-    },
+    }
+  ],
+  "posts": [
     {
-      "email": "hien2@hiennv.com",
-      "password": "$2a$10$/NVDBaUnUeRvhcjDsFCWYOpIe4uJdpRYxAZ9wshvRB.EcO2IGPuEm",
-      "id": 2
+      "title": "Hello World!",
+      "description": "H-e-l-l-o W-o-r-l-d-!",
+      "userId": 1,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "content": "Great!",
+      "userId": 1,
+      "postId": 1,
+      "id": 1
     }
   ],
   "profiles": [
