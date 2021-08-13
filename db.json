@@ -76,5 +76,15 @@
       "id": 10,
       "name": "Jenkins (CI/CD)"
     }
-  ]
+  ],
+  "public": {
+    "id": 1,
+    "name": "Hien Nguyen",
+    "bio": "Expert Mobile App Developer in Java | Android | React Native | Flutter",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3755347?v=4",
+    "url": "https://github.com/hiennguyen92",
+    "upwork": "https://www.upwork.com/freelancers/~01e8865aa693b1478a",
+    "description": "I've worked with Flutter since its release back in 2017, with prior experiences with native Android development (7+ years) and React Native (4+ years) on many mobile projects from small to medium-size, using many frameworks and 3rd-party libraries. I have enough experience and can work hard to achieve it.",
+    "userId": 1
+  }
 }

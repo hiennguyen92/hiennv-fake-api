@@ -34,7 +34,8 @@ const rules = auth.rewriter({
     profiles: 400,
     posts: 644,
     comments: 644,
-    categories: 400
+    categories: 400,
+    public: 444
   })
 
   // Add custom routes before JSON Server router
