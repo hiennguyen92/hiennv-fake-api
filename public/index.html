@@ -1,93 +1,150 @@
 <html>
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Fake Api Server</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="container">
-        <nav>
-          <ul>
-            <li class="title">
-              Fake Api Server
-            </li>
-            <li>
-              <a href="https://github.com/hiennguyen92">
-                <i class="fas fa-heart"></i>GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://hiennv.com">
-                <i class="fas fa-burn"></i>Website
-              </a>
-            </li>
-            <li>
-              <a href="https://www.upwork.com/freelancers/~01e8865aa693b1478a">
-                <i class="far fa-laugh"></i>Upwork
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="container">
-        <h1>Welcome!</h1>
-        <p>
-          You're successfully.
-          <br />
-          ✧*｡٩(ˊᗜˋ*)و✧*｡
-        </p>
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Fake Api Server</title>
+</head>
 
-        <div id="resources"></div>
-
-        <p>
-          To access and modify resources, you can use any HTTP method:
-        </p>
-        <p>
-          <code>GET</code>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li class="title">
+            Fake Api Server
+          </li>
+          <li>
+            <a href="https://github.com/hiennguyen92">
+              <i class="fas fa-heart"></i>GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://hiennv.com">
+              <i class="fas fa-burn"></i>Website
+            </a>
+          </li>
+          <li>
+            <a href="https://www.upwork.com/freelancers/~01e8865aa693b1478a">
+              <i class="far fa-laugh"></i>Upwork
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1>Welcome!</h1>
+      <p>
+        You're successfully.
+        <br />
+        ✧*｡٩(ˊᗜˋ*)و✧*｡
+      </p>
+      <h1>Auth</h1>
+      <h3>Register</h3>
+      <p>
+      <ul>
+        <li>
           <code>POST</code>
-          <code>PUT</code>
-          <code>PATCH</code>
-          <code>DELETE</code>
-          <code>OPTIONS</code>
-        </p>
+          <a href="register">/register</a>
+          <code>{
+                "email": "hien@hiennv.com",
+                "password": "123456",
+                ...
+              }</code>
+        </li>
+        <li>
+          <code>POST</code>
+          <a href="signup">/signup</a>
+          <code>{
+            "email": "hien@hiennv.com",
+            "password": "123456",
+            ...
+          }</code>
+        </li>
+        <li>
+          <code>POST</code>
+          <a href="users">/users</a>
+          <code>{
+            "email": "hien@hiennv.com",
+            "password": "123456",
+            ...
+          }</code>
+        </li>
+      </ul>
+      </p>
+      <h3>Login</h3>
+      <p>
+      <ul>
+        <li>
+          <code>POST</code>
+          <a href="login">/login</a>
+          <code>{
+                "email": "hien@hiennv.com",
+                "password": "123456"
+              }</code>
+        </li>
+        <li>
+          <code>POST</code>
+          <a href="signin">/signin</a>
+          <code>{
+            "email": "hien@hiennv.com",
+            "password": "123456",
+          }</code>
+        </li>
+      </ul>
+      </p>
+      <h3>Authorization</h3>
+      <p>
+        Using header:
+        <code>Authorization: Bearer >>accessToken<<</code>
+      </p>
 
-        <div id="custom-routes"></div>
+      <div id="resources"></div>
 
-        <h1>Documentation</h1>
-        <p>
-          <a href="https://github.com/typicode/json-server">
-            JSON Server
-          </a>
-          <br/>
-          <br/>
-          <a href="https://github.com/jeremyben/json-server-auth">
-            JSON Server Auth
-          </a>
-          
-        </p>
-      </div>
-    </main>
+      <p>
+        To access and modify resources, you can use any HTTP method:
+      </p>
+      <p>
+        <code>GET</code>
+        <code>POST</code>
+        <code>PUT</code>
+        <code>PATCH</code>
+        <code>DELETE</code>
+        <code>OPTIONS</code>
+      </p>
 
-    <footer>
-      <div class="container">
-        <p>
-          Source Code:
-          <a href="https://github.com/hiennguyen92/hiennv-fake-api">
-            <code>https://github.com/hiennguyen92/hiennv-fake-api</code>
-          </a>
-        </p>
-      </div>
-    </footer>
+      <div id="custom-routes"></div>
 
-    <script src="script.js"></script>
-  </body>
+      <h1>Documentation</h1>
+      <p>
+        <a href="https://github.com/typicode/json-server">
+          JSON Server
+        </a>
+        <br />
+        <br />
+        <a href="https://github.com/jeremyben/json-server-auth">
+          JSON Server Auth
+        </a>
+
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        Source Code:
+        <a href="https://github.com/hiennguyen92/hiennv-fake-api">
+          <code>https://github.com/hiennguyen92/hiennv-fake-api</code>
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>

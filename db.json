@@ -34,5 +34,47 @@
       "description": "I've worked with Flutter since its release back in 2017, with prior experiences with native Android development (7+ years) and React Native (4+ years) on many mobile projects from small to medium-size, using many frameworks and 3rd-party libraries. I have enough experience and can work hard to achieve it.",
       "userId": 1
     }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dart"
+    },
+    {
+      "id": 2,
+      "name": "Flutter"
+    },
+    {
+      "id": 3,
+      "name": "React Native"
+    },
+    {
+      "id": 4,
+      "name": "Java | Kotlin | Android"
+    },
+    {
+      "id": 5,
+      "name": "Android NDK"
+    },
+    {
+      "id": 6,
+      "name": "Swift | iOS"
+    },
+    {
+      "id": 7,
+      "name": "React.JS"
+    },
+    {
+      "id": 8,
+      "name": "GraphQL | REST"
+    },
+    {
+      "id": 9,
+      "name": "Docker"
+    },
+    {
+      "id": 10,
+      "name": "Jenkins (CI/CD)"
+    }
   ]
 }
